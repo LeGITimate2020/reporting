@@ -1,7 +1,6 @@
 # PyReporting
 This is a Python reporting library 
 
-
 ## Getting Started
 
 ### Prerequisites
