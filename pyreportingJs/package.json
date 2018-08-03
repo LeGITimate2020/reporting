@@ -1,0 +1,153 @@
+{
+  "name": "pyreporting.js",
+  "version": "0.0.1",
+  "description": "JS for pyreporting",
+  "main": "./build/pyreporting.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/pyreportingJs.js build/pyreportingJs.js.map",
+    "build": "webpack --config ./config/webpack.config.dev.js",
+    "build-watch": "webpack --config ./config/webpack.config.dev.js --watch",
+    "build-production": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "test-jenkins": "CI=true node scripts/test.js --env=jsdom"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "gitDir": ".."
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
+    "testMatch": [
+      "**/tests/?(*.)(spec).js?(x)"
+    ],
+    "testResultsProcessor": "jest-junit"
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "output": "../jest-junit.xml",
+    "classNameTemplate": "{classname}-{title}",
+    "titleTemplate": "{classname}-{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
+  },
+  "author": "Lagitamate",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "7.1.6",
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "6.26.0",
+    "bootstrap": "3",
+    "case-sensitive-paths-webpack-plugin": "2.1.1",
+    "chai": "^4.1.2",
+    "chalk": "1.1.3",
+    "crossfilter": "^1.3.12",
+    "css-loader": "0.28.7",
+    "d3": "^5.4.0",
+    "dc": "^3.0.5",
+    "denormalizr": "^0.4.0",
+    "dotenv": "4.0.0",
+    "dotenv-expand": "4.2.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.4.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.5",
+    "fs-extra": "3.0.1",
+    "hard-source-webpack-plugin": "^0.6.9",
+    "html-webpack-plugin": "2.29.0",
+    "influx": "^5.0.7",
+    "jest": "22.4.4",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "jstat": "^1.7.1",
+    "keycode": "^2.2.0",
+    "lodash": "^4.17.10",
+    "ml-pca": "^2.1.0",
+    "moment": "^2.22.1",
+    "moment-range": "^4.0.1",
+    "normalizr": "2.2.1",
+    "numeral": "^2.0.6",
+    "object-assign": "4.1.1",
+    "papaparse": "^4.4.0",
+    "plotly.js": "^1.37.1",
+    "popper.js": "^1.14.3",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-loader": "^2.1.6",
+    "promise": "8.0.1",
+    "prop-types": "^15.6.1",
+    "raf": "3.4.0",
+    "react-autosuggest": "^9.3.4",
+    "react-bootstrap": "^0.32.1",
+    "react-cookies": "^0.1.0",
+    "react-datepicker": "^1.4.1",
+    "react-dev-utils": "^5.0.1",
+    "react-dropzone-component": "^3.2.0",
+    "react-fullscreenable": "^2.5.0",
+    "react-linkify": "^0.2.2",
+    "react-markdown": "^3.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^3.0.0",
+    "react-table": "^6.8.2",
+    "react-tag-input": "^4.7.2",
+    "react-test-renderer": "^16.3.2",
+    "react-treebeard": "^2.1.0",
+    "react-widgets": "^4.2.6",
+    "react-widgets-moment": "^4.0.12",
+    "reactable": "^0.14.1",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0",
+    "regression": "^2.0.1",
+    "resolve": "1.6.0",
+    "simple-progress-webpack-plugin": "^1.1.2",
+    "simple-statistics": "^6.0.1",
+    "source-map-explorer": "^1.5.0",
+    "style-loader": "0.19.0",
+    "sw-precache-webpack-plugin": "0.11.4",
+    "toastr": "^2.1.4",
+    "ubique": "^0.5.1",
+    "url-loader": "0.6.2",
+    "webpack": "3.8.1",
+    "webpack-bundle-tracker": "^0.3.0",
+    "webpack-dev-server": "2.9.4",
+    "webpack-manifest-plugin": "1.3.2",
+    "webpack-merge": "^4.1.2",
+    "whatwg-fetch": "2.0.3"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "jest-junit": "^4.0.0",
+    "precinct": "^4.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}

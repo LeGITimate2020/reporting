@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Histogram.jsx Matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Histogram
+    height={200}
+    values={
+      Array [
+        13,
+        23,
+        33,
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "autoscaleVisibleYAxis": false,
+      "data": Array [
+        Object {
+          "marker": Object {
+            "color": "rgba(200,200,250,0.7)",
+          },
+          "type": "histogram",
+          "x": Array [
+            13,
+            23,
+            33,
+          ],
+        },
+      ],
+      "layout": Object {
+        "height": 200,
+        "margin": Object {
+          "t": 0,
+        },
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoscaleVisibleYAxis": false,
+        "data": Array [
+          Object {
+            "marker": Object {
+              "color": "rgba(200,200,250,0.7)",
+            },
+            "type": "histogram",
+            "x": Array [
+              13,
+              23,
+              33,
+            ],
+          },
+        ],
+        "layout": Object {
+          "height": 200,
+          "margin": Object {
+            "t": 0,
+          },
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

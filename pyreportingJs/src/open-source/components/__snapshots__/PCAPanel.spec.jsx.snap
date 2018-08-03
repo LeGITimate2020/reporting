@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PCAPanel.jsx Matches snapshot with props 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PCAPanel
+    columns={
+      Array [
+        "col1",
+        "col2",
+        "col3",
+      ]
+    }
+    eigenvectors={
+      Array [
+        Array [
+          0.1,
+          -0.1,
+          -0.3,
+        ],
+        Array [
+          0.3,
+          0.6,
+          -0.1,
+        ],
+        Array [
+          0.01,
+          0.02,
+          0.03,
+        ],
+      ]
+    }
+    explainedVariance={
+      Array [
+        0.8,
+        0.14,
+        0.06,
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Principal Components
+        </h3>,
+        <div>
+          <ScreePlot
+            data={
+              Array [
+                0.8,
+                0.14,
+                0.06,
+              ]
+            }
+          />
+          <Eigenvectors
+            columns={
+              Array [
+                "col1",
+                "col2",
+                "col3",
+              ]
+            }
+            eigenvectors={
+              Array [
+                Array [
+                  0.1,
+                  -0.1,
+                  -0.3,
+                ],
+                Array [
+                  0.3,
+                  0.6,
+                  -0.1,
+                ],
+                Array [
+                  0.01,
+                  0.02,
+                  0.03,
+                ],
+              ]
+            }
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Principal Components",
+        },
+        "ref": null,
+        "rendered": "Principal Components",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ScreePlot
+              data={
+                Array [
+                  0.8,
+                  0.14,
+                  0.06,
+                ]
+              }
+            />,
+            <Eigenvectors
+              columns={
+                Array [
+                  "col1",
+                  "col2",
+                  "col3",
+                ]
+              }
+              eigenvectors={
+                Array [
+                  Array [
+                    0.1,
+                    -0.1,
+                    -0.3,
+                  ],
+                  Array [
+                    0.3,
+                    0.6,
+                    -0.1,
+                  ],
+                  Array [
+                    0.01,
+                    0.02,
+                    0.03,
+                  ],
+                ]
+              }
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "data": Array [
+                0.8,
+                0.14,
+                0.06,
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "columns": Array [
+                "col1",
+                "col2",
+                "col3",
+              ],
+              "eigenvectors": Array [
+                Array [
+                  0.1,
+                  -0.1,
+                  -0.3,
+                ],
+                Array [
+                  0.3,
+                  0.6,
+                  -0.1,
+                ],
+                Array [
+                  0.01,
+                  0.02,
+                  0.03,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Principal Components
+          </h3>,
+          <div>
+            <ScreePlot
+              data={
+                Array [
+                  0.8,
+                  0.14,
+                  0.06,
+                ]
+              }
+            />
+            <Eigenvectors
+              columns={
+                Array [
+                  "col1",
+                  "col2",
+                  "col3",
+                ]
+              }
+              eigenvectors={
+                Array [
+                  Array [
+                    0.1,
+                    -0.1,
+                    -0.3,
+                  ],
+                  Array [
+                    0.3,
+                    0.6,
+                    -0.1,
+                  ],
+                  Array [
+                    0.01,
+                    0.02,
+                    0.03,
+                  ],
+                ]
+              }
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Principal Components",
+          },
+          "ref": null,
+          "rendered": "Principal Components",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ScreePlot
+                data={
+                  Array [
+                    0.8,
+                    0.14,
+                    0.06,
+                  ]
+                }
+              />,
+              <Eigenvectors
+                columns={
+                  Array [
+                    "col1",
+                    "col2",
+                    "col3",
+                  ]
+                }
+                eigenvectors={
+                  Array [
+                    Array [
+                      0.1,
+                      -0.1,
+                      -0.3,
+                    ],
+                    Array [
+                      0.3,
+                      0.6,
+                      -0.1,
+                    ],
+                    Array [
+                      0.01,
+                      0.02,
+                      0.03,
+                    ],
+                  ]
+                }
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "data": Array [
+                  0.8,
+                  0.14,
+                  0.06,
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "columns": Array [
+                  "col1",
+                  "col2",
+                  "col3",
+                ],
+                "eigenvectors": Array [
+                  Array [
+                    0.1,
+                    -0.1,
+                    -0.3,
+                  ],
+                  Array [
+                    0.3,
+                    0.6,
+                    -0.1,
+                  ],
+                  Array [
+                    0.01,
+                    0.02,
+                    0.03,
+                  ],
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`PCAPanel.jsx Matches snapshot without props 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PCAPanel />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click the Run PCA button to populate this tab.",
+    },
+    "ref": null,
+    "rendered": "Click the Run PCA button to populate this tab.",
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click the Run PCA button to populate this tab.",
+      },
+      "ref": null,
+      "rendered": "Click the Run PCA button to populate this tab.",
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

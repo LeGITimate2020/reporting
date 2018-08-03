@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleBarChart Matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SimpleBarChart
+    layout={Object {}}
+    xValues={
+      Array [
+        "bar1",
+        "bar2",
+        "bar3",
+      ]
+    }
+    yValues={
+      Array [
+        0,
+        1,
+        2,
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "autoscaleVisibleYAxis": true,
+      "config": Object {
+        "displaylogo": false,
+        "modeBarButtonsToRemove": Array [
+          "sendDataToCloud",
+        ],
+      },
+      "data": Array [
+        Object {
+          "type": "bar",
+          "x": Array [
+            "bar1",
+            "bar2",
+            "bar3",
+          ],
+          "y": Array [
+            0,
+            1,
+            2,
+          ],
+        },
+      ],
+      "layout": Object {
+        "height": 300,
+        "legend": Object {
+          "orientation": "h",
+        },
+        "margin": Object {
+          "t": 10,
+        },
+        "showlegend": true,
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoscaleVisibleYAxis": true,
+        "config": Object {
+          "displaylogo": false,
+          "modeBarButtonsToRemove": Array [
+            "sendDataToCloud",
+          ],
+        },
+        "data": Array [
+          Object {
+            "type": "bar",
+            "x": Array [
+              "bar1",
+              "bar2",
+              "bar3",
+            ],
+            "y": Array [
+              0,
+              1,
+              2,
+            ],
+          },
+        ],
+        "layout": Object {
+          "height": 300,
+          "legend": Object {
+            "orientation": "h",
+          },
+          "margin": Object {
+            "t": 10,
+          },
+          "showlegend": true,
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

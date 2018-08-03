@@ -1,0 +1,875 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CrossFilterPanel.jsx Matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CrossFilterPanel
+    anyTouched={false}
+    array={
+      Object {
+        "insert": [Function],
+        "move": [Function],
+        "pop": [Function],
+        "push": [Function],
+        "remove": [Function],
+        "removeAll": [Function],
+        "shift": [Function],
+        "splice": [Function],
+        "swap": [Function],
+        "unshift": [Function],
+      }
+    }
+    asyncValidate={[Function]}
+    asyncValidating={false}
+    autofill={[Function]}
+    blur={[Function]}
+    change={[Function]}
+    clearAsyncError={[Function]}
+    clearFields={[Function]}
+    clearSubmit={[Function]}
+    clearSubmitErrors={[Function]}
+    column1={undefined}
+    column2={undefined}
+    data={
+      Array [
+        Object {
+          "date": "2011-11-14T16:17:54Z",
+          "productIDs": Array [
+            "001",
+          ],
+          "quantity": 2,
+          "tip": 100,
+          "total": 190,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T16:20:19Z",
+          "productIDs": Array [
+            "001",
+            "005",
+          ],
+          "quantity": 2,
+          "tip": 100,
+          "total": 190,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T16:28:54Z",
+          "productIDs": Array [
+            "004",
+            "005",
+          ],
+          "quantity": 1,
+          "tip": 200,
+          "total": 300,
+          "type": "visa",
+        },
+        Object {
+          "date": "2011-11-14T16:30:43Z",
+          "productIDs": Array [
+            "001",
+            "002",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 90,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T16:48:46Z",
+          "productIDs": Array [
+            "005",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 90,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T16:53:41Z",
+          "productIDs": Array [
+            "001",
+            "004",
+            "005",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 90,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T16:54:06Z",
+          "productIDs": Array [
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+          ],
+          "quantity": 1,
+          "tip": 0,
+          "total": 100,
+          "type": "cash",
+        },
+        Object {
+          "date": "2011-11-14T16:58:03Z",
+          "productIDs": Array [
+            "001",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 90,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T17:07:21Z",
+          "productIDs": Array [
+            "004",
+            "005",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 90,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T17:22:59Z",
+          "productIDs": Array [
+            "001",
+            "002",
+            "004",
+            "005",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 90,
+          "type": "tab",
+        },
+        Object {
+          "date": "2011-11-14T17:25:45Z",
+          "productIDs": Array [
+            "002",
+          ],
+          "quantity": 2,
+          "tip": 0,
+          "total": 200,
+          "type": "cash",
+        },
+        Object {
+          "date": "2011-11-14T17:29:52Z",
+          "productIDs": Array [
+            "004",
+          ],
+          "quantity": 1,
+          "tip": 100,
+          "total": 200,
+          "type": "visa",
+        },
+      ]
+    }
+    destroy={[Function]}
+    dirty={false}
+    dispatch={[Function]}
+    error={undefined}
+    form="crossFilterPanel"
+    handleSubmit={[Function]}
+    initialValues={Object {}}
+    initialize={[Function]}
+    initialized={false}
+    invalid={false}
+    pristine={true}
+    pure={true}
+    reset={[Function]}
+    resetSection={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    storeSubscription={
+      Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": Subscription {
+          "listeners": Object {
+            "clear": [Function],
+            "get": [Function],
+            "notify": [Function],
+            "subscribe": [Function],
+          },
+          "onStateChange": [Function],
+          "parentSub": undefined,
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+          "unsubscribe": [Function],
+        },
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": [Function],
+      }
+    }
+    submit={[Function]}
+    submitFailed={false}
+    submitSucceeded={false}
+    submitting={false}
+    touch={[Function]}
+    triggerSubmit={undefined}
+    untouch={[Function]}
+    valid={true}
+    warning={undefined}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="row"
+        >
+          <h2 />
+          <div
+            className="col-lg-2"
+          >
+            xAxis
+            <Unknown
+              name="column1"
+              values={
+                Array [
+                  "date",
+                  "quantity",
+                  "total",
+                  "tip",
+                  "type",
+                  "productIDs",
+                ]
+              }
+            />
+          </div>
+          <div
+            className="col-lg-2"
+          >
+            yAxis
+            <Unknown
+              name="column2"
+              values={
+                Array [
+                  "date",
+                  "quantity",
+                  "total",
+                  "tip",
+                  "type",
+                  "productIDs",
+                ]
+              }
+            />
+          </div>
+          <div
+            className="col-lg-8"
+          >
+             
+          </div>
+        </div>,
+        <div
+          className="row"
+        >
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Create scatter: (
+            , 
+            )
+          </button>
+          <div />
+        </div>,
+      ],
+      "className": "container-fluid",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2 />,
+            <div
+              className="col-lg-2"
+            >
+              xAxis
+              <Unknown
+                name="column1"
+                values={
+                  Array [
+                    "date",
+                    "quantity",
+                    "total",
+                    "tip",
+                    "type",
+                    "productIDs",
+                  ]
+                }
+              />
+            </div>,
+            <div
+              className="col-lg-2"
+            >
+              yAxis
+              <Unknown
+                name="column2"
+                values={
+                  Array [
+                    "date",
+                    "quantity",
+                    "total",
+                    "tip",
+                    "type",
+                    "productIDs",
+                  ]
+                }
+              />
+            </div>,
+            <div
+              className="col-lg-8"
+            >
+               
+            </div>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "xAxis",
+                <Unknown
+                  name="column1"
+                  values={
+                    Array [
+                      "date",
+                      "quantity",
+                      "total",
+                      "tip",
+                      "type",
+                      "productIDs",
+                    ]
+                  }
+                />,
+              ],
+              "className": "col-lg-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              "xAxis",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "name": "column1",
+                  "values": Array [
+                    "date",
+                    "quantity",
+                    "total",
+                    "tip",
+                    "type",
+                    "productIDs",
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "yAxis",
+                <Unknown
+                  name="column2"
+                  values={
+                    Array [
+                      "date",
+                      "quantity",
+                      "total",
+                      "tip",
+                      "type",
+                      "productIDs",
+                    ]
+                  }
+                />,
+              ],
+              "className": "col-lg-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              "yAxis",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "name": "column2",
+                  "values": Array [
+                    "date",
+                    "quantity",
+                    "total",
+                    "tip",
+                    "type",
+                    "productIDs",
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " ",
+              "className": "col-lg-8",
+            },
+            "ref": null,
+            "rendered": " ",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              Create scatter: (
+              , 
+              )
+            </button>,
+            <div />,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Create scatter: (",
+                undefined,
+                ", ",
+                undefined,
+                ")",
+              ],
+              "className": "btn btn-primary",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Create scatter: (",
+              undefined,
+              ", ",
+              undefined,
+              ")",
+            ],
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+            },
+            "ref": null,
+            "rendered": Array [],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row"
+          >
+            <h2 />
+            <div
+              className="col-lg-2"
+            >
+              xAxis
+              <Unknown
+                name="column1"
+                values={
+                  Array [
+                    "date",
+                    "quantity",
+                    "total",
+                    "tip",
+                    "type",
+                    "productIDs",
+                  ]
+                }
+              />
+            </div>
+            <div
+              className="col-lg-2"
+            >
+              yAxis
+              <Unknown
+                name="column2"
+                values={
+                  Array [
+                    "date",
+                    "quantity",
+                    "total",
+                    "tip",
+                    "type",
+                    "productIDs",
+                  ]
+                }
+              />
+            </div>
+            <div
+              className="col-lg-8"
+            >
+               
+            </div>
+          </div>,
+          <div
+            className="row"
+          >
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              Create scatter: (
+              , 
+              )
+            </button>
+            <div />
+          </div>,
+        ],
+        "className": "container-fluid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2 />,
+              <div
+                className="col-lg-2"
+              >
+                xAxis
+                <Unknown
+                  name="column1"
+                  values={
+                    Array [
+                      "date",
+                      "quantity",
+                      "total",
+                      "tip",
+                      "type",
+                      "productIDs",
+                    ]
+                  }
+                />
+              </div>,
+              <div
+                className="col-lg-2"
+              >
+                yAxis
+                <Unknown
+                  name="column2"
+                  values={
+                    Array [
+                      "date",
+                      "quantity",
+                      "total",
+                      "tip",
+                      "type",
+                      "productIDs",
+                    ]
+                  }
+                />
+              </div>,
+              <div
+                className="col-lg-8"
+              >
+                 
+              </div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "xAxis",
+                  <Unknown
+                    name="column1"
+                    values={
+                      Array [
+                        "date",
+                        "quantity",
+                        "total",
+                        "tip",
+                        "type",
+                        "productIDs",
+                      ]
+                    }
+                  />,
+                ],
+                "className": "col-lg-2",
+              },
+              "ref": null,
+              "rendered": Array [
+                "xAxis",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "name": "column1",
+                    "values": Array [
+                      "date",
+                      "quantity",
+                      "total",
+                      "tip",
+                      "type",
+                      "productIDs",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "yAxis",
+                  <Unknown
+                    name="column2"
+                    values={
+                      Array [
+                        "date",
+                        "quantity",
+                        "total",
+                        "tip",
+                        "type",
+                        "productIDs",
+                      ]
+                    }
+                  />,
+                ],
+                "className": "col-lg-2",
+              },
+              "ref": null,
+              "rendered": Array [
+                "yAxis",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "name": "column2",
+                    "values": Array [
+                      "date",
+                      "quantity",
+                      "total",
+                      "tip",
+                      "type",
+                      "productIDs",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " ",
+                "className": "col-lg-8",
+              },
+              "ref": null,
+              "rendered": " ",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="btn btn-primary"
+                onClick={[Function]}
+              >
+                Create scatter: (
+                , 
+                )
+              </button>,
+              <div />,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Create scatter: (",
+                  undefined,
+                  ", ",
+                  undefined,
+                  ")",
+                ],
+                "className": "btn btn-primary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Create scatter: (",
+                undefined,
+                ", ",
+                undefined,
+                ")",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [],
+              },
+              "ref": null,
+              "rendered": Array [],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
